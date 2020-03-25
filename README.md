@@ -12,16 +12,16 @@ Also, one more things to remember, Don't forget to run this command in powershel
 ## All About Angular Project Structure Now
 src Folder : You will find all the files related to project will be find here.
 
-## Componenets
-Yes now you can make the componenets just using the commands ng g c abc. It is the abbreviation of the commands of the ng genrate component abc
+## Components
+Yes now you can make the componenets just using the commands `ng g c abc`. It is the abbreviation of the commands of the ng genrate component abc
 
-To make the components nester under one components, you can simply use ng g c abc/xyz
+To make the components nested under one components, you can simply use `ng g c abc/xyz`
 
 You can see all the components under the app folder in the src.
 
-And yes, if you dont want to add any of the folders for the component, you can simply use the ng g c components --flat This command will create a component with the name of the components without a folder.
+And yes, if you dont want to add any of the folders for the component, you can simply use the `ng g c components --flat` This command will create a component with the name of the components without a folder.
 
-Use dry run options to see the list of files and folders that will be generated without creating any files and folders. For example : ng g c ghi -d
+Use dry run options to see the list of files and folders that will be generated without creating any files and folders. For example : `ng g c ghi -d`
 
 -d is an alias for the dry run options
 
