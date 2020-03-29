@@ -32,3 +32,8 @@ But remember your service won't register automtically. There are two ways to reg
 
 1) Manual
 2) Or by instructing the Angular CLI to register it with specific module.
+
+## Adding Modules
+`ng g module first-module`
+
+You will see the changes in the `src/app/first-module/first-module.module.ts`
